@@ -1,6 +1,10 @@
 # twitterNunki
 
+Start the project 
+
 yarn && yarn build && yarn start
+
+
 
 curl --location --request GET 'localhost:3000/users/831297523901935616'
 
