@@ -1,14 +1,27 @@
 # twitterNunki
 
-Start the project 
+# Start the project 
 
 yarn && yarn build && yarn start
 
+# Endpoints
 
-URL : /users/{userId} : Retrieves a user's informations
-METHOD : GET
+# Users
+
+Retrieves a user's informations
+
+**URL** : /users/{userId}
+**METHOD** : GET
+```
 curl --location --request GET 'localhost:3000/users/831297523901935616'
+```
 
-URL : /search/... : Retrieves popular tweets where there is the keyword (q), the keyword (media) is used to tell if the tweet should have a media or not
-METHOD : GET
+# Search
+
+Retrieves popular tweets where there is the keyword (q), the keyword (media) is used to tell if the tweet should have a media or not
+
+**URL** : /search/... 
+**METHOD** : GET
+```
 curl --location --request GET 'localhost:3000/search?q=fortnite&media=false'
+```
