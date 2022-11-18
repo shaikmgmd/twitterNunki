@@ -2,7 +2,9 @@
 
 # Start the project 
 
+```
 yarn && yarn build && yarn start
+```
 
 # Endpoints
 
